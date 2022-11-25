@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="2"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="50dp"
+    tools:context=".MainActivity">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:background="#20AA82"
+                android:text="@string/producto" />
+            <TextView
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:background="#20AA82"
+                android:text="@string/subtotal"
+                android:layout_marginTop="4dp"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jabon_de_manos_x1"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2"
+                android:layout_marginTop="4dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shampoo_monster_x1"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/precioshampoo"
+                android:layout_marginTop="4dp"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pastas_dura_x2"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preciopastas"
+                android:layout_marginTop="4dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detergente"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preciodetergente"
+                android:layout_marginTop="4dp"/>
+        </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@color/black"/>
+
+    </TableRow>
+
+
+<!--           ______________________________________________________________-->
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/subtotala"
+            android:textColor="#20AA82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtotaltotal"
+            android:layout_marginTop="4dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/costoenvio"
+            android:textColor="#20AA82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precioenvio"
+            android:layout_marginTop="4dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/cpón"
+            android:textColor="#20AA82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dtocupon"
+            android:layout_marginTop="4dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/total"
+            android:textColor="#20AA82" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preciototal"
+            android:layout_marginTop="4dp"/>
+    </TableRow>
+
+</TableLayout>
+
+
+
+

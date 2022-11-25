@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EXAMENEv</string>
+    <string name="producto">Producto</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="jabon_de_manos_x1">Jabon de manos x1</string>
+    <string name="shampoo_monster_x1">Shampoo Monster x1</string>
+    <string name="_2">$2</string>
+    <string name="precioshampoo">$10</string>
+    <string name="pastas_dura_x2">Pastas Dura x2</string>
+    <string name="preciopastas">$18</string>
+    <string name="detergente">Detergente Limpiadin x1</string>
+    <string name="preciodetergente">$13,4</string>
+    <string name="subtotala">Subtotal</string>
+    <string name="subtotaltotal">$43,4</string>
+    <string name="costoenvio">Costo Envío</string>
+    <string name="precioenvio">$10</string>
+    <string name="cpón">Cupón</string>
+    <string name="dtocupon">-$5</string>
+    <string name="total">Total</string>
+    <string name="preciototal">$48,4</string>
+</resources>
